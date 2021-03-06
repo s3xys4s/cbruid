@@ -1,6 +1,6 @@
 {
   "name": "@s3xys4s/cbruid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "UUID generator for transactions of Central Bank of Russia",
   "main": "dist/index.js",
   "bin": "dist/bin.js",
