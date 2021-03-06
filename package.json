@@ -1,0 +1,23 @@
+{
+  "name": "@s3xys4s/cbruid",
+  "version": "1.0.0",
+  "description": "UUID generator for transactions of Central Bank of Russia",
+  "main": "dist/index.js",
+  "bin": "dist/bin.js",
+  "author": {
+    "email": "s3xys4s@gmail.com",
+    "name": "s3xys4s"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.2.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc; node dist/index.js"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.31",
+    "uuid": "^8.3.2"
+  }
+}
